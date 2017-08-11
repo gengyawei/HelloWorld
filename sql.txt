@@ -1,0 +1,8 @@
+﻿oracle:
+select * from tab where rownum <= 10;
+sql server:
+select top 10 * from tab 
+mysql: 
+select * from tab limit 10
+db2:
+select * from tab fetch first 10 rows only
