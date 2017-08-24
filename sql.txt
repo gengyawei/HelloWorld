@@ -1,7 +1,8 @@
 ﻿log:
-
 	by gengyw 20170824 new 
 
+不同数据库sql脚本取前10行数据的不同写法
+-----------------------------------------------------
 oracle:
 select * from tab where rownum <= 10;
 sql server:
