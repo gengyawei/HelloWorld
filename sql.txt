@@ -1,4 +1,8 @@
-﻿oracle:
+﻿log:
+
+	by gengyw 20170824 new 
+
+oracle:
 select * from tab where rownum <= 10;
 sql server:
 select top 10 * from tab 
